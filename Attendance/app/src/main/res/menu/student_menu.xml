@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/import_csv_menu"
-        android:title="Import CSV"/>
-    <item
         android:id="@+id/add_student_menu"
         android:title="Add Student"/>
+    <item
+        android:id="@+id/import_csv_menu"
+        android:title="Import CSV"/>
     <item
         android:id="@+id/change_date_menu"
         android:title="Change Date"/>

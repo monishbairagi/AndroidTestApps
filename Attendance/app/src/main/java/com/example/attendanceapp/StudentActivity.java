@@ -26,6 +26,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -247,6 +248,7 @@ public class StudentActivity extends AppCompatActivity {
 
             dialog.setView(v);
             AlertDialog alertDialog = dialog.create();
+            alertDialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
             alertDialog.show();
 
             cancel.setOnClickListener(view -> alertDialog.dismiss());
