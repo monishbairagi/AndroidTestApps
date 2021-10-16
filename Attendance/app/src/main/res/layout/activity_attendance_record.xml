@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_gray"
+    tools:context=".AttendanceRecordActivity">
+
+    <ImageView
+        android:tintMode="src_over"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/general_background"
+        app:tint="#80000000" />
+
+    <include
+        android:id="@+id/toolbar_student"
+        layout="@layout/toolbar" />
+    <ListView
+        android:id="@+id/attendance_record_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="61dp"
+        android:clipToPadding="false"
+        android:paddingBottom="40dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

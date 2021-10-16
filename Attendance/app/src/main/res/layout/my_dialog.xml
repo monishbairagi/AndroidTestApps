@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_bg"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/my_dialog_title_tv"
+        android:text="Add New Class"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="@color/black"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <EditText
+        android:id="@+id/my_dialog_et_1"
+        android:hint="Enter Subject Name"
+        android:singleLine="true"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/my_gray"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/my_dialog_et_2"
+        android:hint="Enter Class Name"
+        android:singleLine="true"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="8dp"
+        android:textColorHint="@color/my_gray"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Cancel" />
+        <Button
+            android:id="@+id/ok"
+            android:text="Ok"
+            android:layout_alignParentRight="true"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

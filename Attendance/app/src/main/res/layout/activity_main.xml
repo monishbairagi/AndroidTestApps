@@ -1,72 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:background="@color/my_gray"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/TextView_date"
+    <ImageView
+        android:tintMode="src_over"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Apr 5,2020"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:background="@color/colorAccent"/>
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/general_background"
+        app:tint="#80000000" />
 
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar" />
 
-    <TextView
-        android:id="@+id/TextView_total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Total: 30"
-        android:textSize="20dp"
-        android:layout_below="@id/TextView_date"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/classes_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="61dp"
+        android:layout_marginBottom="51dp"
+        android:clipToPadding="false"
+        android:paddingBottom="40dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/TextView_stream"
+        android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CSE 2ND"
-        android:textSize="20dp"
-        android:layout_below="@id/TextView_date"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:textStyle="bold" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/my_green"
+        app:maxImageSize="35dp" />
 
-    <TextView
-        android:id="@+id/TextView_roll"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="37"
-        android:layout_below="@id/TextView_date"
-        android:textSize="150dp"
-        android:layout_margin="50dp"
-        android:layout_centerInParent="true"/>
-
-    <Button
-        android:id="@+id/Button_apsend"
-        android:layout_width="140dp"
-        android:layout_height="130dp"
+    <LinearLayout
+        android:background="@color/my_purple"
+        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:text="Apsent"
-        android:layout_margin="10dp"
-        android:textSize="25dp" />
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        <LinearLayout
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="100dp"
+                android:background="@drawable/ic_home"
+                android:layout_width="50dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/Button_present"
-        android:layout_width="140dp"
-        android:layout_height="130dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:text="Present"
-        android:layout_margin="10dp"
-        android:textSize="25dp" />
+        <LinearLayout
+            android:id="@+id/download_activity"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="100dp"
+                android:backgroundTint="@color/my_purple_lite"
+                android:background="@drawable/ic_download"
+                android:layout_width="50dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+    </LinearLayout>
 
 </RelativeLayout>
