@@ -1,7 +1,9 @@
 # Attendance App
+
 <p align="center">
 <img width="300" height="300" src="https://raw.githubusercontent.com/monishbairagi/AndroidTestApps/master/Attendance/app/src/main/res/drawable-nodpi/ic_launcher.png"/>
 </p>
+
 ## About
 Taking and maintaining attendance in pen and paper is quite a hectic task for teachers. So I put this same concept on the mobile application so that a teacher can take and maintain attendance inside the mobile application. And also they can export the attendance data as a ‘.xls’ file at any time.
 Download: [Click Here]
