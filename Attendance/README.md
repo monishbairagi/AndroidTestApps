@@ -1,5 +1,5 @@
 # Attendance App
-
+[![N|Solid](ic_launcher)](https://github.com/monishbairagi/AndroidTestApps/blob/master/Attendance/app/src/main/res/drawable-nodpi/ic_launcher.png)
 ## About
 Taking and maintaining attendance in pen and paper is quite a hectic task for teachers. So I put this same concept on the mobile application so that a teacher can take and maintain attendance inside the mobile application. And also they can export the attendance data as a ‘.xls’ file at any time.
 Download: [Click Here]
