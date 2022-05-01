@@ -20,7 +20,7 @@ Download App: [Click Here](https://github.com/monishbairagi/AndroidTestApps/blob
 - Able to modify a particular student's attendance status.
 - Easy User Interface.
 
-## How it works?
+## How to use?
 ### ▣ Add Class:
 - **Step-1:** Click bottom right plus button to add a new class.
 - **Step-2:** Enter subject name and class name, then enter Ok.
