@@ -87,9 +87,9 @@ Download App: [Click Here](https://github.com/monishbairagi/AndroidTestApps/blob
 - [Apache POI Common » 3.17](https://mvnrepository.com/artifact/org.apache.poi/poi/3.17)
 
 ## Developer
-- **Name:**.*Monish Kumar Bairagi*
+- **Name:** *Monish Kumar Bairagi*
 - **Department:** *Computer Science and Engineering*
-- **Batch: ** *2018 - 2022*
+- **Batch:** *2018 - 2022*
 - **College:** *Hooghly Engineering and Technology College*
 
 ## Contact
