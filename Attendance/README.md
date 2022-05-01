@@ -9,6 +9,11 @@ Taking and maintaining attendance in pen and paper is quite a hectic task for te
 
 Download App: [Click Here](https://github.com/monishbairagi/AndroidTestApps/blob/master/APKs/attendance-app.apk)
 
+## Screenshots
+<p align="center">
+<img height="300" src="https://raw.githubusercontent.com/monishbairagi/AndroidTestApps/master/Attendance/screenshots/attendance_app_1.png"/> <img height="300" src="https://raw.githubusercontent.com/monishbairagi/AndroidTestApps/master/Attendance/screenshots/attendance_app_2.png"/> <img height="300" src="https://raw.githubusercontent.com/monishbairagi/AndroidTestApps/master/Attendance/screenshots/attendance_app_3.png"/> <img height="300" src="https://raw.githubusercontent.com/monishbairagi/AndroidTestApps/master/Attendance/screenshots/attendance_app_4.png"/> <img height="300" src="https://raw.githubusercontent.com/monishbairagi/AndroidTestApps/master/Attendance/screenshots/attendance_app_5.png"/> <img height="300" src="https://raw.githubusercontent.com/monishbairagi/AndroidTestApps/master/Attendance/screenshots/attendance_app_6.png"/>
+</p>
+
 ## Features
 - Import students from the `.csv` file.
 - Export attendance data as a `.xls` file.
