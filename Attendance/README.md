@@ -21,56 +21,56 @@ Download App: [Click Here](https://github.com/monishbairagi/AndroidTestApps/blob
 - Easy User Interface.
 
 ## How it works?
-### Add Class:
+### ▣ Add Class:
 - **Step-1:** Click bottom right plus button to add a new class.
 - **Step-2:** Enter subject name and class name, then enter Ok.
 
-### Edit Class:
+### ▣ Edit Class:
 - **Step-1:** Long press desired class from home and one popup menu will appear.
 - **Step-2:** Click `Edit` option.
 - **Step-3:** Enter new subject name and class name, then enter Ok.
 
-### Delete Class:
+### ▣ Delete Class:
 - **Step-1:** Long press desired class from home and one popup menu will appear.
 - **Step-2:** Click `Delete` option.
 - **Step-3:** Confirm the popup warning and the class will be deleted.
 
-### Add Student:
+### ▣ Add Student:
 - **Step-1:** Open desired class.
 - **Step-2:** Click top-right corner three dot to open a menu.
 - **Step-3:** Click `Add Student` option to add menually or you can `Import CSV` to add students from csv file instead.
 - **Step-4:** If you clicked `Add Student` option then enter roll number, student name and enter ok button to add one student.
 
-### Edit Student:
+### ▣ Edit Student:
 - **Step-1:** Open desired class.
 - **Step-2:** Long press desired student and one popup menu will appear.
 - **Step-3:** Click `Edit` option.
 - **Step-4:** Enter new roll number and student name, then enter Ok.
 
-### Delete Student:
+### ▣ Delete Student:
 - **Step-1:** Open desired class.
 - **Step-2:** Long press desired student and one popup menu will appear.
 - **Step-3:** Click `Delete` option.
 - **Step-4:** Confirm the popup warning and the student will be deleted.
 
-### Take Attendance:
+### ▣ Take Attendance:
 - **Step-1:** Open desired class.
 - **Step-2:** Single click a student to make him/her present and double click to make him/her absent. Green color indicates present and Red color indicates absent.
 - **Step-3:** By default you will take todays attendance. You can also change date by clicking top-right corner three dot button and click `Change Date` option.
 - **Step-4:** Click top-right save button to save attendance data into database.
 
-### Edit Attendance:
+### ▣ Edit Attendance:
 - **Step-1:** Open desired class.
 - **Step-2:** Single click to toggle existing attendance of a student. Green color indicates present and Red color indicates absent.
 - **Step-3:** Click top-right save button to save attendance data into database.
 
-### See Records:
+### ▣ See Records:
 - **Step-1:** Open `Home` page of the app.
 - **Step-2:** Click bottom-right `Download` button.
 - **Step-3:** Click desired class.
 - **Step-4:** Click desired Month. Now you can see whole attendance sheet.
 
-### Download Records:
+### ▣ Download Records:
 - **Step-1:** Open `Home` page of the app.
 - **Step-2:** Click bottom-right `Download` button.
 - **Step-3:** Click desired class.
