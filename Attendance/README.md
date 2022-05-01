@@ -1,5 +1,4 @@
 # Attendance App
-
 <p align="center">
 <img width="300" height="300" src="https://raw.githubusercontent.com/monishbairagi/AndroidTestApps/master/Attendance/app/src/main/res/drawable-nodpi/ic_launcher.png"/>
 </p>
@@ -86,6 +85,12 @@ Download App: [Click Here](https://github.com/monishbairagi/AndroidTestApps/blob
 ## Library Used
 - [OpenCSV » 4.6](https://mvnrepository.com/artifact/com.opencsv/opencsv/4.6)
 - [Apache POI Common » 3.17](https://mvnrepository.com/artifact/org.apache.poi/poi/3.17)
+
+## Developer
+- **Name:**.*Monish Kumar Bairagi*
+- **Department:** *Computer Science and Engineering*
+- **Batch: ** *2018 - 2022*
+- **College:** *Hooghly Engineering and Technology College*
 
 ## Contact
 - [Email](mailto:monishbairagi1999@gmail.com)
